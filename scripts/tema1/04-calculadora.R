@@ -47,7 +47,7 @@ NaN
 
 2 ^(-15) # 3.051758e-05 = 0.00003051758
 
-c(2^30, 2^(-15), 1, 2, 3/2)
+c(2^30, 2^(-15), 1, 2, 3/2) #Notación para vectores
 
 
 sqrt(25)
@@ -153,32 +153,35 @@ x = x^2
 x = sqrt(x)
 
 ## Función f(x) = x^3 - (3^x)* sen(x)
-f = function(x) {
+
+f = function(x) 
+{
   x^3 - (3^x) * sin(x)
 }
 
 f(4) # 4^3 - 3^4 * sin(4)
-f(5)
-f(pi/2)
 
-suma1 <- function(t){
+suma1 <- function(t)
+{
   t + 1
 }
-suma1(6)
 suma1(-5)
 
-product <- function(x, y){
+product <- function(x, y)
+{
   x*y
 }
 product(5,7)
 
-g <- function(x,y,z) {
+g <- function(x,y,z) 
+{
   exp(x^2 + y^2) * sin(z)
 }
 g(1, 2, 3)
 g(1, -1, pi)
 
-suma5 <- function(numero){
+suma5 <- function(numero)
+{
   numero = suma1(numero);
   numero = suma1(numero);
   numero = suma1(numero);
