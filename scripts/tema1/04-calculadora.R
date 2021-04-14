@@ -180,16 +180,26 @@ g <- function(x,y,z)
 g(1, 2, 3)
 g(1, -1, pi)
 
-suma5 <- function(numero)
+suma1 <- function(t)
 {
-  numero = suma1(numero);
-  numero = suma1(numero);
-  numero = suma1(numero);
-  numero = suma1(numero);
-  suma1(numero)
+  t + 1
 }
 
-suma5(3)
+sumaM <- function(numero)
+{
+  numero = suma1(numero); #numero = 1+numero
+  numero = suma1(numero); #numero = 1+(1+numero)
+  
+  suma1(numero); #Valor que regresa la función -> 1+(1+(1+numero))
+  
+  5+numero
+}
+
+sumaM(1)
+
+
+
+
 
 ls()
 
