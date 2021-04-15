@@ -4,6 +4,7 @@ a=1
 b=2
 
 opBasic = function(a,b){
+  
   #Print sólo si no se concatena
   print("Cociente de la división entera") 
   
@@ -15,15 +16,5 @@ opBasic = function(a,b){
   print(paste(sprintf("%i : %i = ",a,b),a%/%b)) 
   
   
-  
 }
 
-opBasic(1,2)
-
-print("%i - %i = ",b,a)
-
-sprintf("%i - %i = ",b,a)
-print(sprintf("%i - %i = ",b,a))
-
-
-print(5+8)

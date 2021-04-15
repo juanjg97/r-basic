@@ -189,13 +189,12 @@ sumaM <- function(numero)
 {
   numero = suma1(numero); #numero = 1+numero
   numero = suma1(numero); #numero = 1+(1+numero)
-  
-  suma1(numero); #Valor que regresa la función -> 1+(1+(1+numero))
-  
-  5+numero
+  numero
 }
 
 sumaM(1)
+
+ls()
 
 
 
